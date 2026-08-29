@@ -20,3 +20,22 @@ public class Main {
 
         System.out.println();
 
+
+        Silla silla = new Silla();
+        silla.setNombre("Silla de oficina");
+        silla.setMaterial("Madera");
+        silla.setPrecio(150000);
+        silla.setTieneBrazos(true);
+        silla.describir();
+
+        System.out.println();
+
+        Mesa mesa = new Mesa();
+        mesa.setNombre("Mesa de comedor");
+        mesa.setMaterial("Vidrio");
+        mesa.setPrecio(500000);
+        mesa.setNumeroPersonas(6);
+        mesa.describir();
+
+        System.out.println();
+
