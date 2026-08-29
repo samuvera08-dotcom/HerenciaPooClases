@@ -39,3 +39,20 @@ public class Main {
 
         System.out.println();
 
+        Refrigerador refrigerador = new Refrigerador();
+        refrigerador.setNombre("Nevera");
+        refrigerador.setMarca("LG");
+        refrigerador.setPotenciaWatts(200);
+        refrigerador.setCapacidadLitros(400);
+        refrigerador.describir();
+
+        System.out.println();
+
+        Lavadora lavadora = new Lavadora();
+        lavadora.setNombre("Lavadora");
+        lavadora.setMarca("Samsung");
+        lavadora.setPotenciaWatts(500);
+        lavadora.setCapacidadKg(15);
+        lavadora.describir();
+    }
+}
